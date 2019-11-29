@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+      <title>Podziękowania</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<style>
+			#content
+			{
+			background-color: 
+				position: fixed;
+				 left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+				width: 100vw;
+				height: 100vh;
+				width: 100%;
+				height: 100%;
+				
+				background-image: url('74452278_418353609088171_7690716792682971136_n.jpg');
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: center;
+			}
+			
+			.wrapper { 
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+a {
+  text-decoration:none;
+  color:#FFF;
+}
+.rainbow-button {
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(-50%, -5%);
+  width:calc(17vw + 6px);
+  height:calc(6vw + 6px);
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-transform:uppercase;
+  font-size:2.5vw;
+  font-weight:bold;
+}
+.rainbow-button:after {
+  content:attr(alt);
+  width:17vw;
+  height:6vw;
+  background-color:#191919;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.rainbow-button:hover {
+  animation:slidebg 2s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+    background-position:17vw;
+  }
+  
+  
+}
+  .tekst_podziekowania
+  {
+  position: fixed;
+width: 45vw;
+margin-left: auto;
+margin-right: auto;
+top: 2%;
+left: 27.5vw;
+height: 30vh;
+transform: translate(0%, 0%);
+
+color: red;
+font-size: 47px;
+  }
+  
+  #shadowBox {
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.2);
+  /* Black w/opacity/see-through */
+  border: 3px solid;
+}
+
+.rainbow {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-family: monospace;
+  letter-spacing: 5px;
+  animation: colorRotate 6s linear 0s infinite;
+}
+
+@keyframes colorRotate {
+  from {
+    color: #6666ff;
+  }
+  10% {
+    color: #0099ff;
+  }
+  50% {
+    color: #00ff00;
+  }
+  75% {
+    color: #ff3399;
+  }
+  100% {
+    color: #6666ff;
+  }
+}
+
+body
+{
+overflow: hidden;
+}
+
+	</style>
+
+	</head>
+   <body>
+   
+				<script>
+
+
+function losujDziekowanie() {
+
+podziekowania_tekst=["Holidays where you can spend time with the important people in life. ","Having a romantic partner or spouse who is there for you ","Being surrounded by friends and family ","Your children ","Having access to clean, drinkable water ","Not being hungry and having an abundance of food ","Having a roof over your head and safe place to live ","Your parents who raised and molded you in the person you are today ","Kindness from strangers and random acts of kindness ","Mistakes that helped you grow as a person ","Modern conveniences that weren't available even a century ago (electricity, indoor plumbing, air conditioning) ","Having full use of your senses like eye-sight, hearing, and taste ","A new book ","Not being hungry and having an abundance of food ","The ability to learn something new ","The kindness of strangers ","A warm campfire on a cold night camping ","Feeling of acceptance ","The beauty of a work of art that moves you ","Making a final payment on a loan ","A nice hot shower ","Healthy foods ","Equality and diversity ","The voice of a friend or relative you have not seen in a long time.The ability to work from home -in your pajamas ","A beautiful sunrise ","The sound of a song you love ","Simply relaxing and playing a board game with friends or family ","Catching up with your favorite blog ","Having a personal routine that helps you accomplish tasks efficiently ","The smell of freshly baked cookies ","Creating a gift for a family member with your own two hands. (crochet, woodworking, art etc.) ","Surprises ","Access to the medication you need to stay healthy. ","Free time on your “to do” list ","A hot cup of tea ","A home that is free of clutter ","The sincere appreciation of others ","A movie that makes you laugh ","Amazon Prime ","The mother who gave you life, nurtured you, loved you, taught you and supported you. ","Seeing your favorite band in concert ","Free apps like Todoist that can organize your life ","An ice cold beer after a hot day working in the yard. ","Questions in emails that can be resolved in a single sentence (this one always makes me happy.) ","New clothes ","The joy of rewarding yourself after completing a difficult task. ","The values handed down to you from your parents ","Entrepreneurs who constantly create technology that makes your life better ","Love that lasts a lifetime ","A really comfortable chair ","Realizing it has been YEARS since you have wanted a cigarette ","Knowing how to make a budget – and sticking to it! ","Visiting an amusement park. ","Snow days ","Respect from others ","Paydays ","Dancing for the pure joy of life ","Someone enjoying your writing/art/creativity ","When you're the recipient of a random act of kindness. ","Thank you notes ","Fresh popcorn — especially in a movie theater ","A favorite memory that you cherish ","An office desk with a great view ","Pizza ","The sense of accomplishment when you complete a difficult task ","The ability to complete a bucket list (If you don't have one, here are 553 ideas.) ","Puppies ","The feeling of uncontrollable laughter. ","Great Ted Talks ","Being pushed to “think outside the box” ","A massage ","Teachers who spent the extra time to give you the knowledge you have today ","Taking a morning walk ","Bathing in a nice warm hot tub or thermal spring ","Fuzzy socks ","Your dog or cat snuggling with you when you feel bad ","Faith ","Having easy access to clean drinking water ","Chocolate ","The ability to spend time on a hobby you love ","Enjoying an episode of your favorite TV show ","Hugs ","The ability to learn from your mistakes ","A stranger opening the door for you when your hands are full ","The fresh smell of clean sheets ","Freedom of speech ","Coloring to relieve stress ","A colorful sunset ","The honesty of a child ","Happy people who make us happier simply by their presence ","The feeling of accomplishment when you stop procrastinating and complete the task you have been avoiding ","Memories of your first kiss ","Enjoying a movie marathon ","The freedom of choice ","Internal strength ","A child’s face after they get a presen ","Spellchecker ","Being in love ","Foreign cultures we can visit and learn from ","Having a vibrant imagination ","Meeting up with your friends for lunch ","That new car smell ","Being accountable for your actions ","Trying new things. (even if it is simple – like a new cup of coffee) ","Old photographs ","Technology – for allowing us to stay closely connected with friends and family regardless of distance ","Netflix and other streaming service options that provide an abundance of viewing options ","A safe landing after a rough plane ride ","Positivity — even when things are difficult ","Visiting new places, especially ones you've always dreamed of seeing ","Getting a full night's sleep (If you struggle with this, then here are 17 ways to fall asleep easier.) ","Home cooked meals ","The pride of owning a home. ","The first flower of Spring ","Home cooked meals ","The pride of owning a home. ","The first flower of Spring ","Having a morning routine that gives you energy throughout your day. ","The weekend ","Happy memories from your childhood ","A unseasonably warm winter day ","Long drives listening to a great podcast or audiobook ","Therapy ","Real honesty ","People who care about the environment, human rights, and animas ","Meditation ","Your car after it has been cleaned and detailed ","Getting a facial ","Grandparents ","Being forgiven for my mistakes ","Finding unexpected money in your pockets ","Sitting down for dinner time with family ","Aromatherapy ","The fresh smell of a Christmas tree ","The snooze button ","A sibling who listens to your problems without judgement ","Kittens ","Acting like a kid again ","Sharing a smile with a stranger ","Overcoming your fears ","Fall when the leaves change colors ","Going for a swim in the ocean ","People who go out of their way to try to make us happy ","Clean air ","Apps that help you save money (Here are 17 good ones) ","Dreamers who never give up ","The sounds and smell of the ocean ","Fresh healthy smoothies ","Good hair days ","Uncontrollable laughter ","Having a mental health day ","The heavy ozone scent right before and after a thunderstorm ","Driving and getting nothing but green lights ","Cell phones ","Spending the night in a fancy hotel ","God ","Blinkist ","A warm cup of coffee ","Doing something spontaneous ","Getting your most important task completed early ","Cheering for your favorite team ","Having a picnic with your family ","Wearing something that makes your feel confident ","Wearing a pair of comfortable shoes ","Getting positive feedback from other ","Poetry ","Having a roof over your head ","Doing work that matters ","Taking a power nap ","Discussing old time times with an old friend ","Participating in a hobby you enjoy ","Watching a funny Youtube video ","Having the ability to read ","Having good friends who you can share good times with ","Quirky family traditions ","Craft beer ","Couponing, travel hacking, and other unique ways to drastically save money ","The convenience of Amazon shopping ","Feeling hope ","Feeling inspired (If you don't feel inspired, then here are 23 motivational podcasts that can help) ","Laughing so hard it makes you cry ","Healthy children ","Forgiving others ","The perfect playlist (Check out these 35 motivational songs you can add to this list) ","The smell of lavender ","My Fitbit pedometer ","Peace of mind ","The successes and accomplishments that you've achieved in your life ","Money in the bank ","Family vacation ","Good health ","Time to practice mindfulness ","The amazing scale of the universe ","Flying a kite ","Hearing good news ","Lists and organization ","Kindle ","Refreshing herbal teas ","Air conditioning ","Hiking trails where you can get out into nature ","A sincere apology from someone who hurt you deeply ","Honest conversations full of deep questions and getting to know someone better ","Showers with strong water pressure ","Walking on the beach ","Quiet time ","Free Wifi ","Overcoming anxieties ","Journaling (Here are 59 ideas to help you get started) ","Farmer's markets and local craft fairs ","Books so awesome they keep you up all night reading ","Apple pie ","Feeling like a kid again ","The billions of stars on a clear night sky ","Remembering the people you have loved ","People sharing your stuff on social media"]
+
+
+
+los=Math.floor((Math.random() * 215) );
+document.getElementById("dzieki").innerHTML = podziekowania_tekst[los];
+new Audio('podziekowania.mp3').play();
+}
+</script>
+         <div  class="wrapper"> 
+			<section>
+				<div id="content">
+					<div id="shadowBox">
+
+						<div id="dzieki" class="tekst_podziekowania rainbow" ></div>
+
+			</div>
+					
+					<a id="start" href="#" class="rainbow-button" alt="Podziękuj" onclick="losujDziekowanie()"></a>
+				</div>
+			</section>
+			
+		</div><!-- end wrapper -->
+		
+
+	</body>
+</html>
